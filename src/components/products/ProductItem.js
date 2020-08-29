@@ -21,7 +21,7 @@ const ProductItem = () => {
             <Typography variant="h6" className="sku">
                 SKU: {id}
             </Typography>
-            <img src={shoe.img} />
+            <img src={shoe.img} alt={shoe.name} />
         </Container>
     );
 }
