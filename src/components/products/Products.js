@@ -39,11 +39,11 @@ const Products = () => {
         <div>
             <Container className="container" fixed>
                 <div className={classes.root}>
-                    <Grid container spacing={3}>
+                    <Grid container spacing={2}>
                         {Object.keys(Shoes).map(keyName => {
                             const shoe = Shoes[keyName];
                             return (
-                                <Grid item xs={4} key={shoe.name}>
+                                <Grid item lg={4} md={4} sm={6} xs={12} key={shoe.name}>
                                     <Paper className={classes.paper}>
                                         <Card>
                                             <CardActionArea>
